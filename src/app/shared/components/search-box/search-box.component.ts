@@ -11,7 +11,7 @@ export class SearchBoxComponent {
   public placeholder: string = '';
 
   @Output() 
-  onValue: EventEmitter<string> = new EventEmitter<string>();
+  public onValue: EventEmitter<string> = new EventEmitter<string>();
   
   @ViewChild('txtInput') 
   txtInput!: ElementRef<HTMLInputElement>;
