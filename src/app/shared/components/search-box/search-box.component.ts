@@ -3,7 +3,7 @@ import { Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@
 @Component({
   selector: 'shared-search-box',
   templateUrl: './search-box.component.html',
-  styles: ``
+  styleUrls:['./search-box.component.css']
 })
 export class SearchBoxComponent {
 
