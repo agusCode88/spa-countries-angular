@@ -1,8 +1,7 @@
 <input
   type="text"
   [placeholder]="placeholder"
-  class="control-form text-center"
+  class="control-form"
+  (keyup)="onKeyPress()"
   #txtInput
-  (keypress)="onKeyPress($event)"
-
->
+  >
